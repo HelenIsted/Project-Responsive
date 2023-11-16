@@ -43,7 +43,7 @@
   }
   .about{font-size: 72px;
   text-align: center; font-weight: bold;color:var(--default-font-color);}
-  #shellyWhite{height: 450px; width: 460px;}
+  #shellyWhite{height: 450px; width: 460px;border-radius: 12px;}
   .shellyName{font-size: 64px;
     text-align: center; font-weight: bold;color:var(--default-font-color)}
   .shellyAbout{font-size: 18px;
@@ -52,5 +52,5 @@
       text-align: center;font-weight:bold ; color:var(--default-font-color)}
     h3{font-size: 24px;
       text-align: center;font-weight:bold ; color:var(--default-font-color)}
-#recipeInfo{font-size: 18px;
+#recipeInfo{font-size: 16px;
   text-align: left ;font-weight:100 ; color:var(--default-font-color)}

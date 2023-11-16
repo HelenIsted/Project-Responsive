@@ -4,6 +4,7 @@
 
 :root {
     --default-font-family: "Nunito", sans-serif;
+    --default-font-color:#272142
   }
   body {
     font-family: var(--default-font-family);
@@ -40,3 +41,16 @@
       font-size: 8px;
     }
   }
+  .about{font-size: 72px;
+  text-align: center; font-weight: bold;color:var(--default-font-color);}
+  #shellyWhite{height: 450px; width: 460px;}
+  .shellyName{font-size: 64px;
+    text-align: center; font-weight: bold;color:var(--default-font-color)}
+  .shellyAbout{font-size: 18px;
+    text-align: left ;font-weight:100 ; color:var(--default-font-color)}
+    .favouriteRecipes{font-size: 36px;
+      text-align: center;font-weight:bold ; color:var(--default-font-color)}
+    h3{font-size: 24px;
+      text-align: center;font-weight:bold ; color:var(--default-font-color)}
+#recipeInfo{font-size: 18px;
+  text-align: left ;font-weight:100 ; color:var(--default-font-color)}

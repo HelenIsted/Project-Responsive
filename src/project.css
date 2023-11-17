@@ -3,54 +3,105 @@
 //font-family: "Roboto", sans-serif;*/
 
 :root {
-    --default-font-family: "Nunito", sans-serif;
-    --default-font-color:#272142
-  }
+  --default-font-family: "Nunito", sans-serif;
+  --default-font-color: #272142;
+}
+body {
+  font-family: var(--default-font-family);
+}
+.project-footer {
+  color: #f9f7fe;
+}
+p {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0px 0px 30px 30px;
+}
+#contactInfo {
+  font-size: 24px;
+  color: var(--default-font-color);
+  font-weight: 100;
+}
+#navTitle {
+  font-size: 16px;
+  font-weight: bold;
+}
+#copyright {
+  font-family: "Roboto", sans-serif;
+  font-size: 16;
+}
+#foodImages {
+  border-radius: 12px;
+  height: 350px;
+}
+#contactForm {
+  font-size: 18px;
+  font-weight: bold;
+  color: #662eed;
+}
+@media (max-width: 960px) {
   body {
-    font-family: var(--default-font-family);
-  }
-  .project-footer {
-    color: #f9f7fe;
+    text-align: center;
   }
   p {
-    font-size: 28px;
-    font-weight: bold;
-    margin: 0px 0px 30px 30px;
-  }
-  #navTitle {
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 20px;
+    margin: 0px 0px 30px 0px;
   }
   #copyright {
-    font-family: "Roboto", sans-serif;
-    font-size: 16;
+    font-size: 8px;
   }
-  #foodImages {
-    border-radius: 12px;
-    height: 350px;
-  }
-  @media (max-width: 960px) {
-    body {
-      text-align: center;
-    }
-    p {
-      font-size: 20px;
-      margin: 0px 0px 30px 0px;
-    }
-    #copyright {
-      font-size: 8px;
-    }
-  }
-  .about{font-size: 72px;
-  text-align: center; font-weight: bold;color:var(--default-font-color);}
-  #shellyWhite{height: 450px; width: 460px;border-radius: 12px;}
-  .shellyName{font-size: 64px;
-    text-align: center; font-weight: bold;color:var(--default-font-color)}
-  .shellyAbout{font-size: 18px;
-    text-align: left ;font-weight:100 ; color:var(--default-font-color)}
-    .favouriteRecipes{font-size: 36px;
-      text-align: center;font-weight:bold ; color:var(--default-font-color)}
-    h3{font-size: 24px;
-      text-align: center;font-weight:bold ; color:var(--default-font-color)}
-#recipeInfo{font-size: 16px;
-  text-align: left ;font-weight:100 ; color:var(--default-font-color)}
+}
+
+.about {
+  font-size: 72px;
+  text-align: center;
+  font-weight: bold;
+  color: var(--default-font-color);
+}
+.recipes {
+  font-size: 72px;
+  text-align: center;
+  font-weight: bold;
+  color: var(--default-font-color);
+}
+.contact {
+  font-size: 72px;
+  text-align: center;
+  font-weight: bold;
+  color: var(--default-font-color);
+}
+#shellyWhite {
+  height: 450px;
+  width: 460px;
+  border-radius: 12px;
+}
+.shellyName {
+  font-size: 64px;
+  text-align: center;
+  font-weight: bold;
+  color: var(--default-font-color);
+}
+.shellyAbout {
+  font-size: 18px;
+  text-align: left;
+  font-weight: 100;
+  color: var(--default-font-color);
+}
+.favouriteRecipes {
+  font-size: 36px;
+  text-align: center;
+  font-weight: bold;
+  color: var(--default-font-color);
+}
+h3 {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  color: var(--default-font-color);
+}
+#recipeInfo {
+  font-size: 16px;
+  text-align: left;
+  font-weight: 100;
+  color: var(--default-font-color);
+}

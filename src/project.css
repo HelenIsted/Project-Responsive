@@ -95,7 +95,6 @@ p {
 }
 h3 {
   font-size: 24px;
-  text-align: center;
   font-weight: bold;
   color: var(--default-font-color);
 }
@@ -104,4 +103,14 @@ h3 {
   text-align: left;
   font-weight: 100;
   color: var(--default-font-color);
+}
+#recipeHeadings {
+  font-size: 36px;
+  font-weight: bold;
+  color: var(--default-font-color);
+}
+hr {
+  border-style: dashed;
+  color: #67d5d2;
+  border-width: 2px;
 }

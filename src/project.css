@@ -10,6 +10,10 @@
   max-width: 90%;
   margin: auto;
 }
+.page-content-recipes {
+  max-width: 65%;
+  margin: auto;
+}
 body {
   font-family: var(--default-font-family);
 }
@@ -62,12 +66,7 @@ p {
   font-weight: bold;
   color: var(--default-font-color);
 }
-.recipes {
-  font-size: 72px;
-  text-align: center;
-  font-weight: bold;
-  color: var(--default-font-color);
-}
+
 .contact {
   font-size: 72px;
   text-align: center;
@@ -97,7 +96,10 @@ p {
   font-weight: bold;
   color: var(--default-font-color);
 }
-h3 {
+#recipeTitle {
+  font-size: 36px;
+}
+.about-page h3 {
   font-size: 24px;
   font-weight: bold;
   color: var(--default-font-color);
@@ -107,13 +109,33 @@ h3 {
   font-weight: 100;
   color: var(--default-font-color);
 }
-#recipeHeadings {
+.page-content-recipes h3 {
   font-size: 36px;
   font-weight: bold;
   color: var(--default-font-color);
 }
+.page-content-recipes h4 {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--default-font-color);
+}
+.page-content-recipes h5 {
+  font-size: 18px;
+  font-weight: 800;
+  color: #f65282;
+}
+.page-content-recipes p {
+  font-size: 18px;
+  font-weight: 100;
+  color: var(--default-font-color);
+  margin: 0px 0px 0px 0px;
+}
+
 hr {
   border-style: dashed;
   color: #67d5d2;
-  border-width: 2px;
+  border-width: 1px;
+}
+.boldText {
+  font-weight: bold;
 }

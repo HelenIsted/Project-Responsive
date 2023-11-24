@@ -6,6 +6,10 @@
   --default-font-family: "Nunito", sans-serif;
   --default-font-color: #272142;
 }
+.page-content {
+  max-width: 90%;
+  margin: auto;
+}
 body {
   font-family: var(--default-font-family);
 }
@@ -74,10 +78,10 @@ p {
   height: 450px;
   width: 460px;
   border-radius: 12px;
+  text-align: right;
 }
 .shellyName {
   font-size: 64px;
-  text-align: center;
   font-weight: bold;
   color: var(--default-font-color);
 }
@@ -100,7 +104,6 @@ h3 {
 }
 #recipeInfo {
   font-size: 16px;
-  text-align: left;
   font-weight: 100;
   color: var(--default-font-color);
 }

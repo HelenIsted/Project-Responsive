@@ -45,6 +45,13 @@ nav ul {
   text-decoration: none;
   font-weight: bold;
 }
+@media (max-width: 768px) {
+  #navLink,
+  .homeBtn {
+    font-size: 12px;
+    margin-left: 0px;
+  }
+}
 .project-footer {
   color: #f9f7fe;
 }

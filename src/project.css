@@ -65,6 +65,9 @@ p {
   color: var(--default-font-color);
   font-weight: 100;
 }
+a {
+  text-decoration: none;
+}
 #navTitle {
   font-size: 16px;
   font-weight: bold;

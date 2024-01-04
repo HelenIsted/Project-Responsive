@@ -67,7 +67,9 @@ p {
 }
 a {
   text-decoration: none;
+  color: var(--default-font-color);
 }
+
 #navTitle {
   font-size: 16px;
   font-weight: bold;

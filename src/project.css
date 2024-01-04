@@ -41,9 +41,11 @@ nav ul {
   font-weight: bold;
 }
 .homeBtn {
-  color: #662eed;
   text-decoration: none;
   font-weight: bold;
+}
+#current {
+  color: #662eed;
 }
 @media (max-width: 768px) {
   #navLink,
